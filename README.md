@@ -1,2 +1,2 @@
 # bootstrap_lerning-lesson-2
-file:///Users/mariiakrusser/Desktop/my_project_2/bootstrap_learning_lesson_2/index.html
+<a href="https://www.figma.com/file/iXMy2vh4oIyeAljeED9tIq/Landing-page-for-Hosting-Company-(Community)?node-id=2%3A356&mode=dev">designe</a>
