@@ -33,6 +33,12 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
+/*color*/
+
+.text-light-gray {
+    color: #808080;
+}
+
 /*header*/
 
 .tel {
@@ -41,4 +47,33 @@ a {
 
 .header {
     padding: 40px 0;
+}
+
+/*big img section*/
+
+.padding-col-right {
+    padding-right: 81px;
+}
+
+.p-max-width {
+    max-width: 448px;
+}
+
+.button-2 {
+    color: #000;
+    background-color: white;
+    border-color: #000;
+    margin-left: 24px;
+}
+
+.button-2:hover {
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+
+.button-1:hover {
+    color: #000;
+    background-color: white;
+    border-color: #000;
 }
