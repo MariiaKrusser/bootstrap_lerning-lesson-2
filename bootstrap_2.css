@@ -122,12 +122,13 @@ a {
     align-items: center;
     text-align: center;
     border: none;
+    padding-bottom: 30px;
 }
 
 
 @media screen and (max-width: 768px) {
     .padding-col-right {
-        padding: 0;
+        padding: 0 15px;
     }
 
     .header {
