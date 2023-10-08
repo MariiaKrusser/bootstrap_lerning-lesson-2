@@ -29,6 +29,36 @@ h5 {
     line-height: normal;
 }
 
+h3 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.pop400 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.pop300 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
 p,
 p a {
     font-family: 'Inter', sans-serif;
@@ -124,6 +154,31 @@ a {
     border: none;
     padding-bottom: 30px;
 }
+
+/* Package section*/
+#flexSwitchCheckDefault {
+    width: 93px;
+    height: 50px;
+}
+
+.form-check-input {
+    background-position: left center;
+    background-color: #B00000;
+    border-color: #B00000;
+    
+}
+
+.form-switch .form-check-input:checked {
+    background-position: left center;
+    background-color: #B00000;
+    border-color: #B00000;
+}
+
+.flex-switch {
+    display: flex;
+    justify-content: center;
+}
+    
 
 
 @media screen and (max-width: 768px) {
