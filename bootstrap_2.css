@@ -39,7 +39,7 @@ h3 {
     line-height: 60px;
 }
 
-.pop400 {
+.font-poppins-400 {
     color: #000;
     text-align: center;
     font-family: Poppins;
@@ -47,9 +47,11 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
+    margin: 0 25px;
+
 }
 
-.pop300 {
+.font-poppins-300 {
     color: #000;
     text-align: center;
     font-family: Poppins;
@@ -78,8 +80,16 @@ a {
     margin-bottom: 60px;
 }
 
+.mb-7 {
+    margin-bottom: 70px;
+}
+
 .ml-6 {
     margin-left: 60px;
+}
+
+.mt-100 {
+    margin-top: 100px;
 }
 
 /*color*/
@@ -156,6 +166,7 @@ a {
 }
 
 /* Package section*/
+
 #flexSwitchCheckDefault {
     width: 93px;
     height: 50px;
@@ -177,8 +188,56 @@ a {
 .flex-switch {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-    
+ 
+.p1 {
+    margin-top: 38px;
+    margin-bottom: 68px;
+}
+
+.btn-size {
+    width: 87px;
+    height: 24px;
+    flex-shrink: 0;
+    font-size: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.scroll-container {
+    width: 50%;
+}
+.scroll-left {
+    border: 1px solid #B00000;
+    width: 100%;
+    height: 4px;
+    background-color: #B00000;
+}
+
+.scroll-right {
+    border: 1px solid #C4C4C4;
+    width: 100%;
+    height: 4px;
+    background-color: #C4C4C4;
+}
+
+.scroll-center {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 40px;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -196,6 +255,10 @@ a {
 
     .mb-mob-3 {
         margin-bottom: 30px;
+    }
+    
+    .flex-switch {
+        flex-direction: column;
     }
 
     }
