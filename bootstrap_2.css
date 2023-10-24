@@ -92,6 +92,10 @@ a {
     margin-top: 100px;
 }
 
+.mt-70 {
+    margin-top: 70px;
+}
+
 /*color*/
 
 .text-light-gray {
@@ -280,6 +284,12 @@ a {
     margin-bottom: 11px;
 }
 
+/* Your Website*/
+
+.your-website h3 {
+    color: #2E2E2E;
+    margin-bottom: 40px;
+}
 
 @media screen and (max-width: 768px) {
     .padding-col-right {
@@ -301,5 +311,6 @@ a {
     .flex-switch {
         flex-direction: column;
     }
+
 
     }
