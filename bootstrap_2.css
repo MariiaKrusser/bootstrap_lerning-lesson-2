@@ -322,5 +322,9 @@ li p, h5 {
         flex-direction: column;
     }
 
+    .px-5 {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
 
     }
